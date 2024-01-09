@@ -4,6 +4,7 @@
     --background: #111111;
     --foreground: #ffffff;
     --header: #111111;
+    --link: #ffffff;
   }
 }
 
@@ -12,7 +13,8 @@
     --code: #111111;
     --background: #e1e1e1;
     --foreground: #111111;
-    --header: #ffffff;
+    --header: #111111;
+    --link: #ffffff;
   }
 }
 
@@ -67,13 +69,13 @@ nav {
 }
 
 nav > a {
-  color: var(--background);
+  color: var(--link);
   text-decoration: none;
   padding: 0.5rem;
 }
 
 nav > a:hover {
-  color: var(--foreground);
+  text-decoration: underline;
 }
 
 code {
