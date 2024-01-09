@@ -1,18 +1,18 @@
 @media (prefers-color-scheme: dark) {
   :root {
-    --code: #c98000;
+    --code: #ffffff;
     --background: #111111;
     --foreground: #ffffff;
-    --header: #c98000;
+    --header: #111111;
   }
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --code: #006e82;
+    --code: #111111;
     --background: #e1e1e1;
     --foreground: #111111;
-    --header: #006e82;
+    --header: #ffffff;
   }
 }
 
