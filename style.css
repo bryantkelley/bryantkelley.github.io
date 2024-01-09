@@ -1,10 +1,10 @@
 @media (prefers-color-scheme: dark) {
   :root {
-    --code: #ffffff;
+    --code: #e1e1e1;
     --background: #111111;
     --foreground: #ffffff;
     --header: #111111;
-    --link: #ffffff;
+    --navlink: #e1e1e1;
   }
 }
 
@@ -14,7 +14,7 @@
     --background: #e1e1e1;
     --foreground: #111111;
     --header: #111111;
-    --link: #ffffff;
+    --navlink: #e1e1e1;
   }
 }
 
@@ -69,7 +69,7 @@ nav {
 }
 
 nav > a {
-  color: var(--link);
+  color: var(--navlink);
   text-decoration: none;
   padding: 0.5rem;
 }
