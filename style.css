@@ -50,16 +50,19 @@ body {
   background-color: var(--header);
 }
 
-.flex-box {
-  display: flex;
-  flex-flow: wrap;
-  flex-direction: row;
-  align-items: center;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, minMax(0, 1fr));
 }
 
-.flex-item {
-  flex: auto;
-  min-width: 280px;
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, minMax(0, 1fr));
+  }
+}
+
+.grid-item {
+  align-self: center;
 }
 
 nav {
